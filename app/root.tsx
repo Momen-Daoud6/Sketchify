@@ -12,8 +12,8 @@ import "./app.css";
 import { useEffect, useState } from "react";
 import {
   getCurrentUser,
-  SignIn as puterSignIn,
-  SignOut as puterSignOut,
+  signIn as puterSignIn,
+  signOut as puterSignOut,
 } from "../lib/puter.actions";
 
 export const links: Route.LinksFunction = () => [
